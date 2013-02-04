@@ -1,3 +1,4 @@
+<h3>A script to fix various problems with the BBY Sharepoint web portal.</h3>
 *Reloads after every 3 min of idle time to prevent logout.
 *Fixes a Google Chrome hover problem. 
 *Adds automcomplete to login form.
