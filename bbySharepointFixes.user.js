@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name           BBY Sharepoint Fixes
-// @namespace      http://userscripts.org/users/thejohnsmith
+// @namespace      http://userscripts.org/users/mathiasaurusrex
 // @description    Reloads after every 3 min of idle time to prevent logout. Fixes a Google Chrome hover problem. Adds automcomplete to login form. 
 // @include        https://view.bestbuy.com/*
 // @match          https://view.bestbuy.com/*
 // @downloadURL    http://userscripts.org/scripts/source/155512.user.js
-// @version 1.1.11
+// @version 1.1.13
 // ==/UserScript==
 
 
@@ -68,7 +68,7 @@
 		this.document.getElementsByTagName('head')[0].appendChild(newIcon);
 	}
 
-/*Embed Music - Ricky Martin Cup of Life */
+/*Embed Music - Ricky Martin Cup of Life 
 	window.onload = function(){
 	var link = "http://mathiasrechtzigel.com/music/RickyMartin_TheCupOfLife.mp3";
 	var iframe = document.createElement('iframe');
@@ -79,5 +79,5 @@
 	document.body.appendChild(iframe);
 };
 
-window.onload();
+window.onload();*/
 
